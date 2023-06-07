@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5b4e9aef-bee3-4aa0-8479-e2871c039d47" name="ebpf-demo">
+        <fileTransfer accessType="SFTP" host="10.211.55.5" port="22" sshConfigId="49433f1a-4efa-4d65-a2eb-320aeae862d7" sshConfig="root@10.211.55.5:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
