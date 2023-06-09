@@ -1,10 +1,3 @@
-## 启动 VM
-
-```bash
-limactl start bcc_vm.yaml
-limactl shell bcc_vm
-```
-
 ## 安装 bcc
 
 ```bash
@@ -26,3 +19,10 @@ make
 sudo make install
 popd
 ```
+
+
+## 参考资料
+
+- [bcc Python Developer Tutorial](https://github.com/iovisor/bcc/blob/master/docs/tutorial_bcc_python_developer.md)
+- [【BPF入门系列-8】文件打开记录跟踪之 perf_event 篇](https://www.ebpf.top/post/ebpf_trace_file_open_perf_output/)
+- [ebpf & bcc 中文教程及手册](https://blog.cyru1s.com/posts/ebpf-bcc.html)
